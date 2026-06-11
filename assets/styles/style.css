@@ -382,3 +382,21 @@
             }
 
         }
+
+@media (max-width: 768px) {
+
+    #sobre .about img {
+        display: none;
+    }
+
+    #sobre .about {
+        display: flex;
+        justify-content: center;
+    }
+
+    #sobre .about-text {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
